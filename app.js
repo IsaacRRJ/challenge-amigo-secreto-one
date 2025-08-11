@@ -26,6 +26,7 @@ function mostrarListaAmigo() {
 
   for (let index = 0; index < amigos.length; index++) {
     const element = amigos[index];
+    
 
     let listaHTML = document.createElement("li");
     listaHTML.textContent = element;
